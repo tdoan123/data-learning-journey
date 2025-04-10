@@ -29,7 +29,7 @@ Example Output:
 |234	|100.00
 
 
-## Requirement analysis: 
+## Thoughts process: 
 - agg: 
   1) number of impression
   2) number click
