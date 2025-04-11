@@ -41,12 +41,6 @@ This repository contains my solutions and practice exercises from the book "[Pan
 - Time series manipulation
 - Applying functions to data
 
-## Resources
-
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Book's Website](https://lerner.co.il/pandas-workout/)
-- [Author's GitHub](https://github.com/reuven)
-
 ## Notes
 
 This repository is for personal educational purposes. All exercise prompts belong to Reuven M. Lerner and the publisher of "Pandas Workout".
