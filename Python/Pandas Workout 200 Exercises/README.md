@@ -1,27 +1,25 @@
 # Pandas Workout Practice
 
-This repository contains my solutions and practice exercises from the book "Pandas Workout: 50 Exercises to Solve Data Analysis Problems" by Reuven M. Lerner.
+This repository contains my solutions and practice exercises from the book "[Pandas Workout: 50 Exercises to Solve Data Analysis Problems](https://www.manning.com/books/pandas-workout)" by Reuven M. Lerner.
 
-## Purpose
+## Notebooks Structure
+[Chapter 1: Series](Chapter_1_Series.ipynb)
 
-The purpose of this repository is to:
-- Document my learning journey with the pandas library
-- Track my progress through the 50 exercises in the book
-- Serve as a reference for pandas techniques and patterns
-- Demonstrate my data analysis skills using Python and pandas
+[Chapter 2: Data Frames](Chapter_2_Data_Frames.ipynb)
 
-## Repository Structure
+[Chapter 3: Importing and exporting](Chapter_3_Importing_n_exporting.ipynb)
 
-```
-pandas-workout/
-├── data/               # Data files used in exercises
-├── exercises/          # Jupyter notebooks with exercise solutions
-│   ├── ex01_basics.ipynb
-│   ├── ex02_indexing.ipynb
-│   └── ...
-├── notes/              # Personal notes on pandas concepts
-└── utils/              # Helper functions for common tasks
-```
+[Chapter 4: Indexes](Chapter_4_Indexes.ipynb)
+
+[Chapter 5: Cleaning data](Chapter_5_Cleaning_data.ipynb)
+
+[Chapter 6: Grouping - Joining - Sorting](Chapter_6_Grouping_joining_sorting)
+
+[Chapter 7: Advance Grouping](Chapter7_AdvanceGrouping)
+
+[Chapter 9: String](Chapter9_String)
+
+[Chapter 10: DateTime](Chapter10_DateTime)
 
 ## Book Information
 
@@ -32,14 +30,6 @@ pandas-workout/
 - Data transformation and aggregation
 - Time series analysis
 - Visualization with pandas
-
-## Progress Tracker
-
-- [ ] Section 1: Basics (Exercises 1-10)
-- [ ] Section 2: Data Cleaning (Exercises 11-20)
-- [ ] Section 3: Transformation (Exercises 21-30)
-- [ ] Section 4: Aggregation (Exercises 31-40)
-- [ ] Section 5: Advanced Topics (Exercises 41-50)
 
 ## Key Skills Practiced
 
