@@ -9,14 +9,14 @@ The analysis is based on a dataset from [Kaggle](https://www.kaggle.com/datasets
 ## Data Transformation Process
 To extract meaningful insights from the raw data, I implemented the following transformations:
 
-- Used the fuzzywuzzy Python library to match and group game titles into franchise series, enabling analysis of publisher performance at the franchise level [workbook review](working_paper\string_extract.py)
+- Used the fuzzywuzzy Python library to match and group game titles into franchise series, enabling analysis of publisher performance at the franchise level [workbook review](data_learning_journey\Projects\Video_Sale_Project\Working_paper\string_extract.py)
 - Performed comprehensive data cleaning, including unpivoting regional sales columns to create a more analysis-friendly structure
 - Consolidated 31 platform categories into three logical groups (Console, PC, and Handheld) to reveal distinct sales patterns across device types
 - Removed inconsistent years to ensure data quality throughout the analysis
 
-## What I have learned from the data? 
+## What I have learned from the data?
 
-### Market Growth and Decline: 
+### Market Growth and Decline:
 The video game industry experienced an average annual growth rate of 5.9% over the 35-year period, with sales peaking at $678 million in 2008 before entering a decline phase with an 11.1% year-over-year decrease.
 
 ### Publisher Concentration
