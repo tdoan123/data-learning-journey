@@ -3,7 +3,7 @@
 This folder contains my collection of Python learning materials, reference notebooks, and completed projects as I advance my Python skills.
 
 **Resources:**
-- [Pandas Workout 200 Exercise](./Pandas_Workout_200_Exercises)
+- [Pandas Workout 200 Exercises](./Pandas_Workout_200_Exercises)
 - [Bamboo Weekly](data_learning_journey\Python\Bamboo Weekly) :Pandas weekly exercise
   
 
