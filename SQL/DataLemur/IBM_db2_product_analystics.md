@@ -41,7 +41,7 @@ and EXTRACT(YEAR from query_starttime) = 2023
 group by employee_id
 order by unique_queries DESC ;
 ```
-![alt text](image-1.png)
+![alt text](image/image-ibm-db2.png)
 
 => this query give me the table of the number of unique_queries by each users => to get the number of employee_id for each unique_querries value => group by unique_queries with count(employee_id)
 
@@ -60,6 +60,48 @@ order by unique_queries DESC) as Table1
 group by unique_queries ;
 ```
 
-![alt text](image-2.png)
+![alt text](image/image-2.png)
+To get the number of employee who do not make queries => use left join where `employees` table is on the left side thus I  can keep all the employeeId value that not appear in `queries` table
 
-To get the number of employee who do not make queries => use left join where `employees` table is on the left side thus I  can keep all the employeeId value that not appear in `queries` table 
+```
+SELECT 
+filter1.unique_queries as unique_queries
+,count(DISTINCT employees.employee_id) as employee_count
+FROM employees 
+LEFT JOIN 
+  (SELECT
+  employee_id
+  ,count (DISTINCT query_id) as unique_queries
+  FROM queries
+  where EXTRACT(MONTH from query_starttime) BETWEEN 07 and 09 
+  and EXTRACT(YEAR from query_starttime) = 2023
+  group by employee_id
+  order by unique_queries DESC) as filter1
+ON employees.employee_id = filter1.employee_id
+GROUP BY filter1.unique_queries
+ORDER BY unique_queries;
+```
+![alt text](image/image-3.png)
+=> this query return the structure that I am looking for. however, i need to show `null value` as `0` => use `COALESCE(,0)`
+
+```
+SELECT 
+COALESCE(filter1.unique_queries, 0) as unique_queries
+,count(DISTINCT employees.employee_id) as employee_count
+FROM employees 
+LEFT JOIN 
+  (SELECT
+  employee_id
+  ,count (DISTINCT query_id) as unique_queries
+  FROM queries
+  where EXTRACT(MONTH from query_starttime) BETWEEN 07 and 09 
+  and EXTRACT(YEAR from query_starttime) = 2023
+  group by employee_id
+  order by unique_queries DESC) as filter1
+ON employees.employee_id = filter1.employee_id
+GROUP BY COALESCE(filter1.unique_queries, 0)
+ORDER BY unique_queries;
+```
+
+![alt text](image/image-4.png)
+problem solved!

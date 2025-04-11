@@ -30,7 +30,7 @@ Write a query to display the user IDs of those who did not confirm their sign-up
 - join table with email.id as a common variable. 2 columns are signup_date `emails` and action_date `texts`
 - check for  action_date - signup_date = 1 
   -  without using extract('day' from .... ) the result return
-  ![alt text](image-1.png)
+  ![alt text](image/image.png)
 - check for signup_action = "Confirmed"\
 - select  user_id `emails`
 
