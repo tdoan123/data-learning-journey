@@ -1,4 +1,5 @@
-# Data Learning Journey
+# Data Learning Journey    
+[back to about me](https://github.com/tdoan123/tdoan123/blob/main/README.md)
 
 Welcome to my page, where I document my data learning journey.
 
