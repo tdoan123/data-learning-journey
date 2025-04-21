@@ -137,6 +137,10 @@ on filter1.user_id = age_breakdown.user_id
 | 26-30       | 33.53     | 0         |
 | 21-25       | 0         | 45.69     |
 | 21-25       | 54.31     | 0         |
+
+!!! this is happening because I didnot use max() function before the case when to instruct sql to select only 1 value. currently sql is understanding that there are two values of age_buckets `31-35`, which are `0` and `37.84`. using `max()` tell sql to only select the highest value for dim `31-35` for column `send_perc`. same as `open_perc` 
+
+!!! there are more than one ocassion where activity_type is either `open` or `send` => I need to get the total value by using group by get the total_time_spent of each activity_type
 ```
 
 ```
@@ -171,4 +175,49 @@ Output:
 | 456     | send          | 13.91                  | 16.91            |
 | 789     | open          | 5.25                   | 11.49            |
 | 789     | send          | 6.24                   | 11.49            |
+
+
+```
+
+## Solution 
+```
+select
+age_bucket,
+send_perc,
+open_perc
+from
+(select
+user_id, 
+Max(case when activity_type = 'send' then round(time_spent_by_activity/total_time_spent *100.0, 2) else 0 end) as send_perc,
+max(case when activity_type = 'open' then round(time_spent_by_activity/total_time_spent *100.0, 2) else 0 end) as open_perc
+from(
+select 
+a.user_id, 
+activity_type,
+sum(time_spent) as time_spent_by_activity,
+b.total_time_spent
+from activities as a 
+left JOIN  
+(select  
+user_id, 
+SUM(CASE 
+        WHEN activity_type IN ('open', 'send') THEN time_spent
+        ELSE 0
+    END) AS total_time_spent
+FROM activities
+group by user_id) as b
+on a.user_id = b.user_id
+where activity_type != 'chat'
+group by a.user_id, activity_type, b.total_time_spent
+order by a.user_id) as filter1
+group by user_id) filter2
+left join age_breakdown
+
+Output
+
+| age_buckets | send_perc | open_perc |
+|-------------|-----------|-----------|
+| 21-25       | 54.31     | 45.69     |
+| 26-30       | 82.26     | 17.74     |
+| 31-35       | 37.84     | 62.16     |
 ```
