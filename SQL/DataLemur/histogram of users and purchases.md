@@ -41,6 +41,7 @@ Example Output:
 
 ## keyword
 `row_number() over (partition by ____ order by ___ )` or 
+
 `rank() over (partition by __ order by __`
 
 ## Solution
