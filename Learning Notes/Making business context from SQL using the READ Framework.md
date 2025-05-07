@@ -90,8 +90,6 @@ ORDER BY avg_revenue_per_session DESC;
 ## D: Deliver Insights
 ***Reach your destination***
 
-> **To update chart to visualize this point**
-> 
  | Traffic Source | Avg. Revenue / Session (\$) |
 | -------------: | --------------------------: |
 |    Paid Search |                        4.25 |
