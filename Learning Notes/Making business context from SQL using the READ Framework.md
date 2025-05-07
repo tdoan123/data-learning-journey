@@ -51,12 +51,12 @@ Map each table to the questions it can answer:
 
 | Table | Key Fields | Example Business Questions |
 |-------|------------|----------------------------|
-| **website_sessions** | website_session_id, created_at, utm\_source, utm\_campaign, device_type | 1. Marketing mix: Which UTM campaigns bring in the most first‑time vs. repeat sessions? <br> 2. Device ROI: How does conversion rate and AOV differ across desktop, mobile, and tablet traffic? |
-| **website_pageviews** | website_pageview_id, created_at, website_session_id, pageview_url |1. Landing‑page lift: Which first pageview URLs deliver the highest session‑to‑order conversion rate? <br>  2. User journey depth: What’s the average number of pageviews before purchase, and how does that vary by UTM campaign? |
+| **website_sessions** | website_session_id, created_at, utm\_source, utm\_campaign, device_type | 1. Marketing mix: Which UTM campaigns bring in the most first‑time vs. repeat sessions? <br> <br> 2. Device ROI: How does conversion rate and AOV differ across desktop, mobile, and tablet traffic? |
+| **website_pageviews** | website_pageview_id, created_at, website_session_id, pageview_url |1. Landing‑page lift: Which first pageview URLs deliver the highest session‑to‑order conversion rate? <br> <br>  2. User journey depth: What’s the average number of pageviews before purchase, and how does that vary by UTM campaign? |
 | **products** | product_id, created_at, product_name | 1. Launch traction: Among products released in the last 30 days, which generated the most revenue in their first week? <br> 2. Refund hot‑spots: Do certain product lines show above‑average refund rates? |
-| **orders** | order_id, created_at, website_session_id, primary_product_id, items_purchased, price_usd, cogs_usd | 1. Margin by source: What’s the average gross margin (price_usd – cogs_usd) by marketing channel? <br>  2. Basket size: How many items are purchased per order for new vs. returning customers? |
-| **order_items** | order_item_id, product_id, is_primary_item, price_usd, cogs_usd | 1. Attach‑rate winners: Which add‑on items ( is_primary_item = 0 ) most often ride along with specific primary products <br> 2. Profit drivers: Which SKUs contribute the most to total gross profit? |
-| **order_item_refunds** | order_item_refund_id, refund_amount_usd | 1. Refund burden: What percentage of revenue is refunded for each product (or product family)? <br> 2. Refund timing: How many days elapse, on average, between purchase and refund request? |
+| **orders** | order_id, created_at, website_session_id, primary_product_id, items_purchased, price_usd, cogs_usd | 1. Margin by source: What’s the average gross margin (price_usd – cogs_usd) by marketing channel? <br> <br>  2. Basket size: How many items are purchased per order for new vs. returning customers? |
+| **order_items** | order_item_id, product_id, is_primary_item, price_usd, cogs_usd | 1. Attach‑rate winners: Which add‑on items ( is_primary_item = 0 ) most often ride along with specific primary products <br> <br> 2. Profit drivers: Which SKUs contribute the most to total gross profit? |
+| **order_item_refunds** | order_item_refund_id, refund_amount_usd | 1. Refund burden: What percentage of revenue is refunded for each product (or product family)? <br> <br> 2. Refund timing: How many days elapse, on average, between purchase and refund request? |
 
 > Pick one question per analysis; it keeps the SQL lean and the story clear.
 
