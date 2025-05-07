@@ -1,13 +1,13 @@
 # Making business context from SQL using the **READ** Framework
 
 Imagine setting off on a cross‑country road trip without a map or GPS.  
-You might eventually get somewhere, but you’ll waste a lot of time—and gas—getting lost.  
+You might eventually get somewhere, but you’ll waste a lot of time and gas or perhaps getting lost.  
 The **READ** framework is your SQL roadmap:
 
-1. **R**elationships — plot the highways (your schema)  
-2. **E**stablish Context — choose your destination (business question)  
-3. **A**ssemble Query — hit the road (SQL code)  
-4. **D**eliver Insights — reach your destination (actionable findings)  
+1. **R**elationships - plot the highways (your schema)  
+2. **E**stablish Context - choose your destination (business question)  
+3. **A**ssemble Query - hit the road (SQL code)  
+4. **D**eliver Insights - reach your destination (actionable findings)  
 
 Buckle up—let’s apply **READ** to a six‑table e‑commerce database(*) and take one trip: **Revenue per Session by Channel**.
 
