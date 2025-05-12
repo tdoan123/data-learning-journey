@@ -13,8 +13,7 @@ Churn: Advertisers who have made payments in the past but have not made any rece
 Resurrect: Advertisers who have not made a recent payment but may have made a previous payment and have made a payment again recently.
 Before proceeding with the question, it is important to understand the possible transitions in the advertiser's status based on the payment status. The following table provides a summary of these transitions:
 
-#	Current Status	Updated Status	Payment on Day T
-| Row | Start | End | Payment Status |
+| Row | Current Status | Updated Status | Payment on Day T |
 |-----|-------|------|---------------|
 | 1 | NEW | EXISTING | Paid |
 | 2 | NEW | CHURN | Not paid |
@@ -39,7 +38,7 @@ Rows 1, 3, 5, and 7: If an advertiser makes a payment on day T, the status is up
     when __ then __ 
     when __ then __ 
  end as __`  
-  
+
 ## Soluion
 ```
 SELECT 
