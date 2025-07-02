@@ -3,6 +3,12 @@
 ## Project Description
 
 The **Maven Fuzzy Factory** project is a comprehensive e-commerce analytics case study designed to simulate and evaluate the performance of an online retailer across multiple product lines and marketing channels. Leveraging realistic sample data, the project demonstrates how to build a relational database, extract and transform data using SQL, process results in Excel, and produce insightful reports for stakeholders.
+  ![!\[alt text\](image.png)](images/image1.png)
+  ![!\[alt text\](image.png)](images/image2.png)
+  ![!\[alt text\](image.png)](images/image3.png)
+  ![!\[alt text\](image.png)](images/image4.png)
+  ![!\[alt text\](image.png)](images/image5.png)
+  ![!\[alt text\](image.png)](images/image6.png)
 
 ## Analysis Process
 
@@ -29,12 +35,6 @@ The **Maven Fuzzy Factory** project is a comprehensive e-commerce analytics case
    - Designed a slide deck in PowerPoint and exported as a PDF.
    - Included charts for sales trends, channel performance, product cohort analyses, and cross-sell matrices.
    - Generated individual slide PNGs for easy embedding and sharing.
-  ![!\[alt text\](image.png)](images/image1.png)
-  ![!\[alt text\](image.png)](images/image2.png)
-  ![!\[alt text\](image.png)](images/image3.png)
-  ![!\[alt text\](image.png)](images/image4.png)
-  ![!\[alt text\](image.png)](images/image5.png)
-  ![!\[alt text\](image.png)](images/image6.png)
 
 ## Deliverables
 

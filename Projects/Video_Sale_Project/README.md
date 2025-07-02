@@ -3,6 +3,16 @@
 ## Project Overview
 This project explores the evolving landscape of the video game industry through data analysis of global sales patterns spanning 35 years (1980-2015). By examining a comprehensive dataset of 16,596 video games with sales exceeding 100,000 copies, I've uncovered significan trends in consumer preferences, market dynamics, and publisher strategies across different regions, genres and platforms.
 
+[Link to access interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiY2FjOGVlYzktM2IxZC00ODdjLWIzZDEtYjIzZGZkZWI2OGNhIiwidCI6ImYwYWJhNWFlLTA1MzktNGZjMy05NDYxLTYwNzRmYjJmMzE2NCIsImMiOjEwfQ%3D%3D)
+
+![!\[alt text\](image.png)](Images/image.png)
+
+![!\[alt text\](image.png)](Images/image-1.png)
+
+![!\[alt text\](image.png)](Images/image-2.png)
+
+![!\[alt text\](image.png)](Images/image-3.png)
+
 ## The Dataset
 The analysis is based on a dataset from [Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales) containing video game sales data scraped from vgchartz.com. Each entry includes the game's rank, name, platform, release year, genre, publisher, and sales figures across North America, Europe, Japan, other regions, and global totals.
 
@@ -40,13 +50,7 @@ In the mature market of 2011-2015, publishers who focused on leveraging establis
 ## Visualization
 The analysis is presented through a 4-page Power BI dashboard with cross-filtering capabilities, providing interactive exploration of the data across different dimensions. [Link to access interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiY2FjOGVlYzktM2IxZC00ODdjLWIzZDEtYjIzZGZkZWI2OGNhIiwidCI6ImYwYWJhNWFlLTA1MzktNGZjMy05NDYxLTYwNzRmYjJmMzE2NCIsImMiOjEwfQ%3D%3D)
 
-![!\[alt text\](image.png)](Images/image.png)
 
-![!\[alt text\](image.png)](Images/image-1.png)
-
-![!\[alt text\](image.png)](Images/image-2.png)
-
-![!\[alt text\](image.png)](Images/image-3.png)
 ## Future Analysis Directions
 - Calculate average performance metrics per franchise to identify the most efficient game production strategies
 - Analyze performance trends among mid-tier publishers
