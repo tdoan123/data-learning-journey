@@ -1,0 +1,5 @@
+primary_product_id,Orders,Cross_Sell_P1,Cross_Sell_P1_Rate,Cross_Sell_P2,Cross_Sell_P2_Rate,Cross_Sell_P3,Cross_Sell_P3_Rate,Cross_Sell_P4,Cross_Sell_P4_Rate
+1,4467,0,0.0000,238,0.0533,553,0.1238,933,0.2089
+2,1277,25,0.0196,0,0.0000,40,0.0313,260,0.2036
+3,929,84,0.0904,40,0.0431,0,0.0000,208,0.2239
+4,581,16,0.0275,9,0.0155,22,0.0379,0,0.0000
