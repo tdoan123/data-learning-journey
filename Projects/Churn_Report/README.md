@@ -3,6 +3,12 @@
 ## 🎯 Project Overview
 
 This project demonstrates a complete **end-to-end data analytics pipeline** for telecom customer churn analysis, showcasing skills in database management, ETL processes, data transformation, and business intelligence visualization.
+  
+  **Live Dashboard**: [View Telecom Churn Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDllMjFlZWYtNGJmNS00MTY4LThjYzQtYTY1NzFkMjAzNTI1IiwidCI6ImYwYWJhNWFlLTA1MzktNGZjMy05NDYxLTYwNzRmYjJmMzE2NCIsImMiOjEwfQ%3D%3D)
+
+
+![!\[alt text\](image.png)](images\image.png)
+
 
 ### 🔍 Business Problem
 Telecom companies face significant revenue loss due to customer churn. This analysis aims to:
