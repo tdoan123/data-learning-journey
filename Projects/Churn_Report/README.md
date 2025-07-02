@@ -158,7 +158,7 @@ Based on the analysis, key recommendations include:
 ## 🔗 Project Links
 
 - **Live Dashboard**: [View Telecom Churn Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDllMjFlZWYtNGJmNS00MTY4LThjYzQtYTY1NzFkMjAzNTI1IiwidCI6ImYwYWJhNWFlLTA1MzktNGZjMy05NDYxLTYwNzRmYjJmMzE2NCIsImMiOjEwfQ%3D%3D)
-![alt text](image.png)
+![alt text](.images/image.png)
 
 ## 🙏 Credit
 Dataset and tutorial guide courtesy of [Pivotal Stats](https://www.youtube.com/watch?v=QFDslca5AX8&t=3944s)
