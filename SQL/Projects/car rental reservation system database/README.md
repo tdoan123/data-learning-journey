@@ -15,11 +15,11 @@ This term project for the Relational Database Design and SQL (COMP 1630) cours
 
 1. **Mock data creation:** Build sample datasets in Excel to capture business rules and table relationships.
 
-![image.png](attachment:b75f5ca4-a29d-41cf-b9fc-85e1435c98d9:image.png)
+![alt text](image-1.png)
 
 1. **Schema design:** Model the database with an Entity‑Relationship Diagram (ERD).
 
-![image.png](attachment:ee2b86b7-0064-421a-9fea-705feb56cf43:image.png)
+![alt text](image-2.png)
 
 1. **Database setup:** Write DDL scripts to create tables, keys, and constraints.
     
