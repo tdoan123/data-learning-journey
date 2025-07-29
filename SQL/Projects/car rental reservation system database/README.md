@@ -109,3 +109,6 @@ This term project for the Relational Database Design and SQL (COMP 1630) cours
     order by CalendarDate asc
     
     ```
+
+# Reference:
+Full source code: see [the Car Rental Reservation System Database on GitHub](https://github.com/tdoan123/data-learning-journey/tree/main/SQL/Projects/car%20rental%20reservation%20system%20database)
