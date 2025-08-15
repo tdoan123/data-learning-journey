@@ -251,3 +251,4 @@ yarn-error.log*
 .env.production.local
 
 # Rest of previous patterns...
+**/credential.py
