@@ -252,3 +252,4 @@ yarn-error.log*
 
 # Rest of previous patterns...
 **/credential.py
+credential.py
